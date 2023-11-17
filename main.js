@@ -14,7 +14,7 @@ var vueInstance = new Vue({
         //   this.error = 'Wrong username or password';
         // }
         const article = { "Username": username, "Password": password };
-        const response = await axios.post("https://localhost:44300/api/accounts/login", article);
+        const response = await axios.post("https://localhost:7274/api/accounts/login", article);
         console.log(response);
       }
     }    
